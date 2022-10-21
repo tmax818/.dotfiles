@@ -1,0 +1,18 @@
+#!/bin/bash
+
+cd
+rm -rf .rbenv
+ln -s ~/.dotfiles/.rbenv .rbenv
+
+rm -rf .bashrc
+ln -s ~/.dotfiles/bash/.bashrc .bashrc
+
+rm -rf .gitconfig
+ln -s ~/.dotfiles/.gitconfig .gitconfig
+
+rm -rf .vim
+ln -s ~/.dotfiles/.vim .vim
+
+rm .vimrc
+ln -s ~/.dotfiles/.vimrc .vimrc
+
